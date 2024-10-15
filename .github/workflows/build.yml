@@ -24,7 +24,7 @@ jobs:
         run: sudo apt-get install ant -y
 
       - name: Build
-        working-directory: "Airport System"
+        working-directory: "FinalProject"
         run: |
           ant clean
           ant jar
